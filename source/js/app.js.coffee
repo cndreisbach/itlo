@@ -1,4 +1,3 @@
-#= require hours.jst
+#= require libraries
+#= require hours
 
-hours =
-  southwest: ['0700', '1900']

@@ -1,0 +1,80 @@
+main:
+  name: Main
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: ['1400', '1800']
+east:
+  name: East Regional
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: ['1400', '1800']
+north:
+  name: North Regional
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: ['1400', '1800']
+south:
+  name: South Regional
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: ['1400', '1800']
+southwest:
+  name: Southwest Regional
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: ['1400', '1800']
+warren:
+  name: Stanford L. Warren Branch
+  hours:
+    monday: ['0900', '2100']
+    tuesday: ['0900', '2100']
+    wednesday: ['0900', '1800']
+    thursday: ['0900', '2100']
+    friday: ['1400', '1800']
+    saturday: ['0930', '1800']
+    sunday: []
+bragtown:
+  name: Bragtown Library Family Literacy Center
+  hours:
+    monday: ['1400', '1700']
+    tuesday: ['1400', '1700']
+    wednesday: ['1400', '1700']
+    thursday: ['1400', '1700']
+    friday: ['1400', '1700']
+    saturday: []
+    sunday: []
+mcdougald:
+  name: McDougald Terrace Community Library
+  hours:
+    monday: ['1400', '1800']
+    tuesday: ['1400', '1800']
+    wednesday: ['1400', '1800']
+    thursday: ['1400', '1800']
+    friday: ['1400', '1800']
+    saturday: []
+    sunday: []
