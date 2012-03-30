@@ -6,15 +6,36 @@
     .row
       .span12 Is Southwest Open?
     .row
-      .span12.y-or-n Yes,
+      .span12.y-or-n Yes
     .row
       .span12 until 9PM
   .row
-    .span5.offset1
-      %p Southwest Hours
+    #hours.span5.offset1
+      %h2 Southwest Hours
       %dl.dl-horizontal
         %dt Monday
         %dd 9a-9p
+        %dt Tuesday
+        %dd 9a-9p
+        %dt Wednesday
+        %dd 9a-9p
+        %dt Thursday
+        %dd 9a-9p
+        %dt Friday
+        %dd 9a-9p
+        %dt Saturday
+        %dd 9a-9p
+        %dt Sunday
+        %dd 9a-9p
     .span5
-      .map MAP
-      .address Address
+      .map 
+        :plain
+          <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=3605+Shannon+Road,+Durham,+NC&amp;aq=0&amp;oq=3605+Shannon&amp;sll=35.998159,-78.917177&amp;sspn=0.015555,0.012381&amp;ie=UTF8&amp;hq=&amp;hnear=3605+Shannon+Rd,+Durham,+North+Carolina+27707&amp;t=m&amp;ll=35.958417,-78.954363&amp;spn=0.020843,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=3605+Shannon+Road,+Durham,+NC&amp;aq=0&amp;oq=3605+Shannon&amp;sll=35.998159,-78.917177&amp;sspn=0.015555,0.012381&amp;ie=UTF8&amp;hq=&amp;hnear=3605+Shannon+Rd,+Durham,+North+Carolina+27707&amp;t=m&amp;ll=35.958417,-78.954363&amp;spn=0.020843,0.025749&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+      .address 
+        %h3 Southwest Regional:
+        %p
+          3605 Shannon Road
+          %br
+          Durham, NC 27707
+          %br
+          919-560-8590

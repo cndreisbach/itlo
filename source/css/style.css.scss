@@ -6,7 +6,13 @@ body {
   margin-bottom: 50px;
 }
 
+body, p, dl, ul, ol, li, dd, dt {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 #header {
+  margin-bottom: 20px;
 }
 
 #library {
@@ -18,11 +24,20 @@ body {
 }
 
 #itlo {
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
+  margin-bottom: 20px;
   .y-or-n {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 128px;
     line-height: 142px;
+  }
+}
+
+#hours {
+  h2 {
+    text-align: center;
   }
 }
