@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %meta(charset='utf-8')
+    %meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    = stylesheet_link_tag "style"
+    = yield_content :head
+  %body
+    #main.container(role="main")
+      = yield
