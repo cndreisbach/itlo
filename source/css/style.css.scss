@@ -1,3 +1,28 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
+body {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#header {
+}
+
+#library {
+  font-weight: bold;
+}
+
+#now {
+  text-align: right;
+}
+
+#itlo {
+  text-align: center;
+  .y-or-n {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 128px;
+    line-height: 142px;
+  }
+}
