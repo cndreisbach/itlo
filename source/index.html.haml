@@ -1,10 +1,20 @@
 .container
   #header.row
     #library.span8 Durham Public Library
-    #now.span4 Today's date &amp; time
+    #now.span4 
   #itlo
     .row
-      .span12 Is Southwest Open?
+      .span12 
+        Is 
+        #library-chooser.btn-group
+          %button.btn.btn-large.dropdown-toggle(data-toggle="dropdown" href="#")
+            %span.btn-text choose library
+            %span.caret
+          %ul.dropdown-menu
+            - data.libraries.each do |key, library|
+              %li
+                %a(data-library=key href="#")= library['name']
+        Open?
     .row
       .span12.y-or-n Yes
     .row
