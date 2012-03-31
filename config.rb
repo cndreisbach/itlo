@@ -9,6 +9,8 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+set :haml, :format => :html5, :ugly => true
+
 ###
 # Page command
 ###
@@ -30,6 +32,12 @@
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
+#
+
+Dir['source/js/vendor/*'].each do |file|
+  _, file = file.split(/\//, 2)
+  ignore file
+end
 
 ###
 # Helpers
@@ -54,10 +62,10 @@ set :images_dir, "img"
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
   
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
   
   # Enable cache buster
   # activate :cache_buster
