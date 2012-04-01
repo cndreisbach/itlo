@@ -1,0 +1,7 @@
+<h2><%= @name %> hours</h2>
+<dl class="dl-horizontal">
+  <% for day, [start, stop] of @hours: %>
+    <dt><%= day %></dt>
+    <dd><%= @mt start %> - <%= @mt stop %></dd>
+  <% end %>
+</dl>

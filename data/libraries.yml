@@ -1,13 +1,13 @@
 main:
   name: Main Library
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: ['1400', '1800']
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: ['1400', '1800']
   address:
     street: 300 North Roxboro St
     zip: 27701
@@ -15,13 +15,13 @@ main:
 east:
   name: East Regional Library
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: ['1400', '1800']
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: ['1400', '1800']
   address:
     street: 211 Lick Creek Lane
     zip: 27703
@@ -29,13 +29,13 @@ east:
 north:
   name: North Regional Library
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: ['1400', '1800']
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: ['1400', '1800']
   address:
     street: 221 Milton Road
     zip: 27712
@@ -43,13 +43,13 @@ north:
 south:
   name: South Regional Library
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: ['1400', '1800']
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: ['1400', '1800']
   address:
     street: 4505 S Alston Ave
     zip: 27713
@@ -57,13 +57,13 @@ south:
 southwest:
   name: Southwest Regional Library
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: ['1400', '1800']
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: ['1400', '1800']
   address:
     street: 3605 Shannon Road
     zip: 27707
@@ -71,13 +71,13 @@ southwest:
 warren:
   name: Stanford L. Warren Branch
   hours:
-    monday: ['0900', '2100']
-    tuesday: ['0900', '2100']
-    wednesday: ['0900', '1800']
-    thursday: ['0900', '2100']
-    friday: ['1400', '1800']
-    saturday: ['0930', '1800']
-    sunday: []
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
+    Sunday: []
   address:
     street: 1201 Fayetteville St
     zip: 27707
@@ -85,13 +85,13 @@ warren:
 bragtown:
   name: Bragtown Library Family Literacy Center
   hours:
-    monday: ['1400', '1700']
-    tuesday: ['1400', '1700']
-    wednesday: ['1400', '1700']
-    thursday: ['1400', '1700']
-    friday: ['1400', '1700']
-    saturday: []
-    sunday: []
+    Monday: ['1400', '1700']
+    Tuesday: ['1400', '1700']
+    Wednesday: ['1400', '1700']
+    Thursday: ['1400', '1700']
+    Friday: ['1400', '1700']
+    Saturday: []
+    Sunday: []
   address:
     street: 3200 Dearborn Dr
     zip: 27704
@@ -99,13 +99,13 @@ bragtown:
 mcdougald:
   name: McDougald Terrace Community Library
   hours:
-    monday: ['1400', '1800']
-    tuesday: ['1400', '1800']
-    wednesday: ['1400', '1800']
-    thursday: ['1400', '1800']
-    friday: ['1400', '1800']
-    saturday: []
-    sunday: []
+    Monday: ['1400', '1800']
+    Tuesday: ['1400', '1800']
+    Wednesday: ['1400', '1800']
+    Thursday: ['1400', '1800']
+    Friday: ['1400', '1800']
+    Saturday: []
+    Sunday: []
   address:
     street: 1101 Lawson St
     zip: 27701
