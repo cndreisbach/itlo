@@ -2,6 +2,10 @@
 <dl class="dl-horizontal">
   <% for day, [start, stop] of @hours: %>
     <dt><%= day %></dt>
-    <dd><%= @mt start %> - <%= @mt stop %></dd>
+    <% if start and stop: %>
+      <dd><%= @mt start %> - <%= @mt stop %></dd>
+    <% else: %>
+      <dd>Closed</dd>
+    <% end %>
   <% end %>
 </dl>

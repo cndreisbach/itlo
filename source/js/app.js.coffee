@@ -16,11 +16,11 @@ class Library
     @hours[day].length == 2 and @hours[day][0] <= time <= @hours[day][1]
 
   openMessage: (date) ->
+    dow = date.day()
+    day = moment.weekdays[dow]
     if @isOpen(date)
-      "until #{@hours[day][1]}"
+      "until #{mt @hours[day][1]}"
     else
-      dow = date.day()
-      day = moment.weekdays[dow]
       time = date.format("HHmm")
       if @hours[day][0] > time
         "It will open at #{mt @hours[day][0]} today."
