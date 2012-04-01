@@ -46,3 +46,17 @@ body, p, dl, ul, ol, li, dd, dt {
     text-align: center;
   }
 }
+
+#map {
+  width: 100%;
+  height: 300px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+#address {
+  abbr {
+    border-bottom: 0;
+    cursor: inherit;
+  }
+}

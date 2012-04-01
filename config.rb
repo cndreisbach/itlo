@@ -1,3 +1,7 @@
+require "rubygems"
+require "bundler"
+Bundler.setup(:default) 
+
 ###
 # Haml
 ###
@@ -66,7 +70,7 @@ configure :build do
   
   # Minify Javascript on build
   activate :minify_javascript
-  
+
   # Enable cache buster
   # activate :cache_buster
   
