@@ -95,7 +95,7 @@ $(document).ready ->
   Library.initialize()
 
   Library.updateClock()
-  setInterval Library.updateClock, 1000 * 60
+  setInterval Library.updateClock, 1000 * 15
   
   $libraryChooser.find("a").click (event) ->
     Library.choose $(this).data('library')

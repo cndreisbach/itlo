@@ -6,6 +6,10 @@ body {
   margin-bottom: 50px;
 }
 
+body, button {
+  font-family: 'Istok Web', sans-serif;
+}
+
 body, p, dl, ul, ol, li, dd, dt {
   font-size: 16px;
   line-height: 20px;
@@ -29,9 +33,17 @@ body, p, dl, ul, ol, li, dd, dt {
   text-align: center;
   margin-bottom: 20px;
   #library-chooser {
-    margin-bottom: -10px;
+    margin-bottom: -15px;
     display: inline-block;
     text-align: left;
+    .btn-text {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .caret {
+      margin-top: 12px;
+      border-width: 8px 8px 0 8px;
+    }
   }
   .y-or-n {
     font-weight: bold;

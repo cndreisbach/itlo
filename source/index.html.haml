@@ -1,7 +1,7 @@
 .container
   #header.row
-    #library.span8 Durham Public Library
-    #now.span4 
+    #library.span6 Durham Public Library
+    #now.span6 
   #itlo
     .row
       .span12 
@@ -14,7 +14,7 @@
             - data.libraries.each do |key, library|
               %li
                 %a(data-library=key href="#")= library['name']
-        Open?
+        open?
     #open-info
   .row
     #hours.span6
