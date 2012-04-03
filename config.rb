@@ -22,8 +22,8 @@ set :haml, :format => :html5, :ugly => true
 # Per-page layout changes:
 #
 # With no layout
-# page "/path/to/file.html", :layout => false
-#
+page "tests.html", :layout => false
+
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
 #
@@ -72,7 +72,7 @@ configure :build do
   activate :minify_javascript
 
   # Enable cache buster
-  # activate :cache_buster
+  activate :cache_buster
 
   # Use relative URLs
   # activate :relative_assets
@@ -81,7 +81,4 @@ configure :build do
   # First: gem install middleman-smusher
   # require "middleman-smusher"
   # activate :smusher
-
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
 end

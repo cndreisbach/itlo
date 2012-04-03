@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %meta(charset="utf-8")
+    %title Mocha Tests
+    = stylesheet_link_tag "mocha"
+    = javascript_include_tag "http://maps.google.com/maps?file=api&amp;v=2&amp;key=AIzaSyC_y6Kge3bqpBgHygX3kqSSxWJNv3KawoM"
+    = javascript_include_tag "tests"
+    :javascript
+      $(document).ready(function () {
+        mocha.run()
+      })
+  %body
+    %div
+      %a(href="/tests.html") Re-run
+    #mocha
