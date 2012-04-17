@@ -1,5 +1,7 @@
 #= require vendor/jquery-1.7.2
+#= require data
 #= require library
+#= require holiday
 
 $(document).ready ->
   $libraryChooser = $("#library-chooser")

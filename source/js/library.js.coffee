@@ -13,7 +13,10 @@ class Library
   isOpen: (date) ->
     day = date.format("dddd")
     time = date.format("HHmm")
-    @hours[day]? and @hours[day].length == 2 and @hours[day][0] <= time <= @hours[day][1]
+    not(Holiday.isHoliday(date)) and
+      @hours[day]? and 
+      @hours[day].length == 2 and 
+      @hours[day][0] <= time <= @hours[day][1]
 
   openMessage: (date) ->
     dow = date.day()
@@ -22,14 +25,16 @@ class Library
       "until #{mt @hours[day][1]}"
     else
       time = date.format("HHmm")
-      if @hours[day][0] > time
+      if not(Holiday.isHoliday(date)) and @hours[day][0] > time
         "It will open at #{mt @hours[day][0]} today."
       else
-        dow += 1
-        day = moment.weekdays[dow % 7]
-        while @hours[day].length != 2 
-          dow += 1
-          day = moment.weekdays[dow % 7]
+        date = date.add('days', 1)
+        dow = date.day()
+        day = moment.weekdays[dow]
+        while Holiday.isHoliday(date) or @hours[day].length != 2 
+          date = date.add('days', 1)
+          dow = date.day()
+          day = moment.weekdays[dow]
         "It will open at #{mt @hours[day][0]} on #{day}."
    
 Library.current = ->
