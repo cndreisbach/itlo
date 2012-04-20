@@ -1,15 +1,18 @@
 <h2><%= @name %> hours</h2>
 <dl class="dl-horizontal">
-  <% for dow in [0..6]: %>
+  <% for tdow in [1..7]: %>
+    <% dow = if tdow == 7 then 0 else tdow %>
     <% day = moment.weekdays[dow] %>
     <% [start, stop] = @hours[day] %>
-    <dt><%= day %></dt>
+    <dt class="dow<%= dow %>"><%= day %></dt>
+    <dd class="dow<%= dow %>">
     <% if Holiday.isHoliday(moment().day(dow)): %>
-      <dd><%= Holiday.getHoliday(moment().day(dow)).name %></dd>
+      <%= Holiday.getHoliday(moment().day(dow)).name %>
     <% else if start and stop: %>
-      <dd><%= @mt start %> - <%= @mt stop %></dd>
+      <%= @mt start %> - <%= @mt stop %>
     <% else: %>
-      <dd>Closed</dd>
+      Closed
     <% end %>
+    </dd>
   <% end %>
 </dl>

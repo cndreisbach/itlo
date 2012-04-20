@@ -42,7 +42,7 @@ Library.current = ->
 
 Library.choose = (library) ->
   if (library isnt Library.current())
-    monster.set 'library', library
+    monster.set 'library', library, 365
     $(document).data('library', library);
     newLibrary = Library.all[library]
     $("#library-chooser .btn-text").text "the #{newLibrary.name}"
@@ -51,6 +51,7 @@ Library.choose = (library) ->
       name: newLibrary.name
       hours: newLibrary.hours
       mt: Library.formatMilTime
+      mod: (a, b) -> a % b
     $("#contact").html JST['templates/contact']
       name: newLibrary.name 
       address: newLibrary.address 
@@ -82,7 +83,10 @@ Library.formatMilTime = (milTime) ->
   am_pm = if hours < 12 then "AM" else "PM"
   printed_hours = hours % 12
   printed_hours += 12 if printed_hours == 12
-  "#{printed_hours}:#{minutes} #{am_pm}"
+  if minutes is "00"
+    "#{printed_hours} #{am_pm}"
+  else
+    "#{printed_hours}:#{minutes} #{am_pm}"
 
 this.mt = Library.formatMilTime
 
