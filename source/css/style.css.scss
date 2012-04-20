@@ -1,8 +1,15 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
 
+$light_purple: #e2e5ee;
+$dark_purple: #cacdd5;
+$brown: #3d3331;
+$dark_brown: #362d2c;
+$tan: #ddd5a4;
+$yellow: #fdfb94;
+
 body {
-  margin-top: 10px;
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -16,7 +23,11 @@ body, p, dl, ul, ol, li, dd, dt {
 }
 
 #header {
-  margin-bottom: 20px;
+  background-color: $light_purple;
+  border-bottom: 5px solid $dark_purple;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 #library {
@@ -24,6 +35,8 @@ body, p, dl, ul, ol, li, dd, dt {
 }
 
 #now {
+  margin-right: 30px;
+  display: block;
   text-align: right;
 }
 
@@ -31,7 +44,9 @@ body, p, dl, ul, ol, li, dd, dt {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $dark_purple;
   #library-chooser {
     margin-bottom: -15px;
     display: inline-block;
@@ -44,6 +59,9 @@ body, p, dl, ul, ol, li, dd, dt {
       margin-top: 12px;
       border-width: 8px 8px 0 8px;
     }
+  }
+  #open-info {
+    margin-top: 20px;
   }
   .y-or-n {
     font-weight: bold;
