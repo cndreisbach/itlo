@@ -1,8 +1,11 @@
+#header
+  .container
+    .row
+      #library.span6 Durham County Library
+      .span6
+        %span#now
+
 .container
-  #header.row
-    #library.span6 Durham County Library
-    .span6 
-      %span#now
   #itlo
     .row
       .span12 
@@ -23,8 +26,11 @@
         #hours
         #updated Last updated: #{Date.today.strftime("%B %d, %Y")}
     #contact.span7
-  #footer.row
-    Brought to you by the
-    %a(href='http://www.durhamcountylibrary.org/board.php') Durham County Library Board of Trustees
-    and
-    %a(href='http://thinkrelevance.com') Relevance, Inc.
+
+#footer
+  .container
+    .row
+      Brought to you by the
+      %a(href='http://www.durhamcountylibrary.org/board.php') Durham County Library Board of Trustees
+      and
+      %a(href='http://thinkrelevance.com') Relevance, Inc.

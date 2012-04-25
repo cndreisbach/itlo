@@ -109,6 +109,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  compass
   eco
   ejs
   middleman (~> 2.0.15)

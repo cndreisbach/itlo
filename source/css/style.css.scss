@@ -1,5 +1,7 @@
 @import "bootstrap";
 @import "bootstrap-responsive";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
 
 $light_purple: #e2e5ee;
 $dark_purple: #cacdd5;
@@ -8,9 +10,15 @@ $dark_brown: #362d2c;
 $tan: #ddd5a4;
 $yellow: #fdfb94;
 
-body {
-  margin-top: 0;
-  margin-bottom: 50px;
+@media screen and (max-width: 767px) {
+  body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 body, button {
@@ -22,7 +30,12 @@ body, p, dl, ul, ol, li, dd, dt {
   line-height: 20px;
 }
 
+#main {
+  overflow: visible;
+}
+
 #header {
+  width: 100%;
   background-color: $light_purple;
   border-bottom: 5px solid $dark_purple;
   padding-top: 15px;
@@ -35,7 +48,6 @@ body, p, dl, ul, ol, li, dd, dt {
 }
 
 #now {
-  margin-right: 30px;
   display: block;
   text-align: right;
 }
