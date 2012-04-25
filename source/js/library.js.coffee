@@ -91,7 +91,7 @@ Library.formatMilTime = (milTime) ->
 this.mt = Library.formatMilTime
 
 Library.initialize = () ->
-  library = monster.get 'library'
+  library = monster.get('library') ? "main"
   @choose library if library
 
 Library.all = {}
