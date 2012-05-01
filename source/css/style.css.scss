@@ -14,10 +14,13 @@ $yellow: #fdfb94;
   body {
     padding-left: 0;
     padding-right: 0;
-  }
-  .container {
-    margin-left: 20px;
-    margin-right: 20px;
+    .container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    #now {
+      text-align: left;
+    }
   }
 }
 
@@ -84,7 +87,7 @@ body, p, dl, ul, ol, li, dd, dt {
 }
 
 #schedule {
-  margin-left: 10%;
+  margin-bottom: 20px;
   width: 90%;
   h2 {
     text-align: center;
