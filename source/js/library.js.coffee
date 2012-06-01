@@ -1,7 +1,6 @@
-#= require vendor/jquery-1.7.2
-#= require_tree ./vendor
+#= require ./vendor/moment
+#= require ./vendor/monster
 #= require_tree ./templates
-#= require data
 
 class Library
   constructor: (data) ->

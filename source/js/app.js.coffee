@@ -1,5 +1,6 @@
 #= require vendor/jquery-1.7.2
 #= require vendor/bootstrap
+#= require vendor/jquery.gmap-1.1.0
 #= require data
 #= require library
 #= require holiday

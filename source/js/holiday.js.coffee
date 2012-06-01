@@ -1,4 +1,4 @@
-#= require_tree ./vendor
+#= require vendor/moment
 #= require data
 
 class Holiday
