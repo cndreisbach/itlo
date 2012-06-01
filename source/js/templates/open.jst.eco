@@ -1,6 +1,7 @@
 <div class="row">
-  <div class="y-or-n span12">
-    <%= if @open then "yes" else "no" %>
+  <% yOrN = if @open then "yes" else "no" %>
+  <div class="y-or-n span12 <%= yOrN %>">
+    <%= yOrN %>
   </div>
   <div class="span12">
     <%= @message %>

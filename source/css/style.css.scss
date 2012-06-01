@@ -81,8 +81,14 @@ body, p, dl, ul, ol, li, dd, dt {
   .y-or-n {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 128px;
-    line-height: 142px;
+    &.yes {
+      font-size: 128px;
+      line-height: 142px;
+    }
+    &.no {
+      font-size: 84px;
+      line-height: 96px;
+    }
   }
 }
 
