@@ -6,7 +6,7 @@
 class Library
   constructor: (data) ->
     {@name, @hours, @address, @phone} = data
-  
+
   fullAddress: ->
     "#{@address.street}, Durham NC #{@address.zip}"
 
@@ -14,8 +14,8 @@ class Library
     day = date.format("dddd")
     time = date.format("HHmm")
     not(Holiday.isHoliday(date)) and
-      @hours[day]? and 
-      @hours[day].length == 2 and 
+      @hours[day]? and
+      @hours[day].length == 2 and
       @hours[day][0] <= time <= @hours[day][1]
 
   openMessage: (date) ->
@@ -31,12 +31,12 @@ class Library
         date = date.add('days', 1)
         dow = date.day()
         day = moment.weekdays[dow]
-        while Holiday.isHoliday(date) or @hours[day].length != 2 
+        while Holiday.isHoliday(date) or @hours[day].length != 2
           date = date.add('days', 1)
           dow = date.day()
           day = moment.weekdays[dow]
         "It will open at #{mt @hours[day][0]} on #{day}."
-   
+
 Library.current = ->
   $(document).data('library')
 
@@ -47,14 +47,14 @@ Library.choose = (library) ->
     newLibrary = Library.all[library]
     $("#library-chooser .btn-text").text "the #{newLibrary.name}"
     @displayOpenInfo(library)
-    $("#hours").html JST['templates/hours'] 
+    $("#hours").html JST['templates/hours']
       name: newLibrary.name
       hours: newLibrary.hours
       mt: Library.formatMilTime
       mod: (a, b) -> a % b
     $("#contact").html JST['templates/contact']
-      name: newLibrary.name 
-      address: newLibrary.address 
+      name: newLibrary.name
+      address: newLibrary.address
       phone: newLibrary.phone
     $("#map").gMap
       address: newLibrary.fullAddress()
@@ -73,7 +73,7 @@ Library.displayOpenInfo = (library) ->
     message: library.openMessage moment()
 
 Library.updateClock = () ->
-  $("#now").html moment().format "dddd [at] h:mm a"
+  $("#now").html moment().format "dddd, MMMM Do, YYYY [at] h:mm a"
   if Library.current()
     Library.displayOpenInfo(Library.current())
 
