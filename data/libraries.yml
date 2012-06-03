@@ -85,11 +85,11 @@ warren:
 bragtown:
   name: Bragtown Library Family Literacy Center
   hours:
-    Monday: ['1400', '1700']
-    Tuesday: ['1400', '1700']
-    Wednesday: ['1400', '1700']
-    Thursday: ['1400', '1700']
-    Friday: ['1400', '1700']
+    Monday: ['1400', '1800']
+    Tuesday: ['1400', '1800']
+    Wednesday: ['1400', '1800']
+    Thursday: ['1400', '1800']
+    Friday: ['1400', '1800']
     Saturday: []
     Sunday: []
   address:
