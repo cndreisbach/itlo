@@ -99,11 +99,11 @@ bragtown:
 mcdougald:
   name: McDougald Terrace Community Library
   hours:
-    Monday: ['1400', '1800']
-    Tuesday: ['1400', '1800']
-    Wednesday: ['1400', '1800']
-    Thursday: ['1400', '1800']
-    Friday: ['1400', '1800']
+    Monday: ['1300', '1700']
+    Tuesday: ['1300', '1700']
+    Wednesday: ['1300', '1700']
+    Thursday: ['1300', '1700']
+    Friday: ['1300', '1700']
     Saturday: []
     Sunday: []
   address:
