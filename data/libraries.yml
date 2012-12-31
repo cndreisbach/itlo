@@ -1,7 +1,7 @@
 main:
   name: Main Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
@@ -15,7 +15,7 @@ main:
 east:
   name: East Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
@@ -29,7 +29,7 @@ east:
 north:
   name: North Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
@@ -43,7 +43,7 @@ north:
 south:
   name: South Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
@@ -57,7 +57,7 @@ south:
 southwest:
   name: Southwest Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
@@ -71,7 +71,7 @@ southwest:
 warren:
   name: Stanford L. Warren Branch
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['0900', '1800']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
