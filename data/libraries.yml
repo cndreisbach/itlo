@@ -6,7 +6,7 @@ main:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 300 North Roxboro St
@@ -20,7 +20,7 @@ east:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 211 Lick Creek Lane
@@ -34,7 +34,7 @@ north:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 221 Milton Road
@@ -48,7 +48,7 @@ south:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 4505 S Alston Ave
@@ -62,7 +62,7 @@ southwest:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 3605 Shannon Road
@@ -76,7 +76,7 @@ warren:
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Saturday: ['1200', '1800']
     Sunday: []
   address:
     street: 1201 Fayetteville St
