@@ -1,12 +1,12 @@
 main:
   name: Main Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 300 North Roxboro St
@@ -15,12 +15,12 @@ main:
 east:
   name: East Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 211 Lick Creek Lane
@@ -29,12 +29,12 @@ east:
 north:
   name: North Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 221 Milton Road
@@ -43,12 +43,12 @@ north:
 south:
   name: South Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 4505 S Alston Ave
@@ -57,12 +57,12 @@ south:
 southwest:
   name: Southwest Regional Library
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: ['1400', '1800']
   address:
     street: 3605 Shannon Road
@@ -71,12 +71,12 @@ southwest:
 warren:
   name: Stanford L. Warren Branch
   hours:
-    Monday: ['0900', '2100']
+    Monday: ['1030', '2100']
     Tuesday: ['0900', '2100']
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
-    Saturday: ['1200', '1800']
+    Saturday: ['0930', '1800']
     Sunday: []
   address:
     street: 1201 Fayetteville St
