@@ -83,13 +83,13 @@ warren:
     zip: 27707
   phone: 919-560-0270
 bragtown:
-  name: Bragtown Library Family Literacy Center
+  name: Bragtown Library Family Literacy Center - TEMPORARILY CLOSED 
   hours:
-    Monday: ['1400', '1800']
-    Tuesday: ['1400', '1800']
-    Wednesday: ['1400', '1800']
-    Thursday: ['1400', '1800']
-    Friday: ['1400', '1800']
+    Monday: []
+    Tuesday: []
+    Wednesday: []
+    Thursday: []
+    Friday: []
     Saturday: []
     Sunday: []
   address:
