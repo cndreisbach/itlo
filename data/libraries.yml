@@ -71,8 +71,8 @@ southwest:
 warren:
   name: Stanford L. Warren Branch
   hours:
-    Monday: ['0900', '2100']
-    Tuesday: ['0900', '2100']
+    Monday: []
+    Tuesday: []
     Wednesday: ['0900', '1800']
     Thursday: ['0900', '2100']
     Friday: ['1400', '1800']
