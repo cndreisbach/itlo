@@ -73,10 +73,10 @@ warren:
   hours:
     Monday: []
     Tuesday: []
-    Wednesday: ['0900', '1800']
-    Thursday: ['0900', '2100']
-    Friday: ['1400', '1800']
-    Saturday: ['0930', '1800']
+    Wednesday: []
+    Thursday: []
+    Friday: []
+    Saturday: []
     Sunday: []
   address:
     street: 1201 Fayetteville St
