@@ -71,12 +71,12 @@ southwest:
 warren:
   name: Stanford L. Warren Branch
   hours:
-    Monday: []
-    Tuesday: []
-    Wednesday: []
-    Thursday: []
-    Friday: []
-    Saturday: []
+    Monday: ['0900', '2100']
+    Tuesday: ['0900', '2100']
+    Wednesday: ['0900', '1800']
+    Thursday: ['0900', '2100']
+    Friday: ['1400', '1800']
+    Saturday: ['0930', '1800']
     Sunday: []
   address:
     street: 1201 Fayetteville St
