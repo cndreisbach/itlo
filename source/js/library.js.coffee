@@ -40,7 +40,7 @@ Library.current = ->
   $(document).data('library')
 
 Library.choose = (library) ->
-  if (library isnt Library.current())
+  if (library isnt Library.current() and Library.all[library])
     monster.set 'library', library, 365
     $(document).data('library', library);
     newLibrary = Library.all[library]

@@ -96,17 +96,3 @@ bragtown:
     street: 3200 Dearborn Dr
     zip: 27704
   phone: 919-560-0210
-mcdougald:
-  name: McDougald Terrace Community Library
-  hours:
-    Monday: []
-    Tuesday: []
-    Wednesday: []
-    Thursday: []
-    Friday: []
-    Saturday: []
-    Sunday: []
-  address:
-    street: 1101 Lawson St
-    zip: 27701
-  phone: 919-560-0240
