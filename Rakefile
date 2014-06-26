@@ -1,4 +1,4 @@
-ssh_user = "web@server1.crnixon.org"
+ssh_user = "web@isthelibraryopen.com"
 remote_root = "~/itlo.crnixon.org/"
 
 desc "Builds the site"
